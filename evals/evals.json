@@ -1,0 +1,47 @@
+{
+  "skill_name": "create-fe-app",
+  "evals": [
+    {
+      "id": "1",
+      "description": "Scaffold a typescript and React project using Vite and Tailwind CSS. The name of the project is `my-app`",
+      "expected_output": "A fully functional React project scaffolded with Vite and styled with Tailwind CSS.",
+      "criteria": [
+        {
+          "id": "1.1",
+          "condition": "The project has a `my-app/frontend/yarn.lock` file",
+          "type": "boolean"
+        },
+        {
+          "id": "1.2",
+          "condition": "The project doesn't have a `my-app/frontend/package-lock.json` file",
+          "type": "boolean"
+        },
+        {
+          "id": "1.3",
+          "condition": "The project has a `my-app/frontend/src` directory",
+          "type": "boolean"
+        },
+        {
+          "id": "1.4",
+          "condition": "The project has a `my-app/frontend/public` directory",
+          "type": "boolean"
+        },
+        {
+          "id": "1.5",
+          "condition": "The project has a `my-app/frontend/tsconfig.json` file",
+          "type": "boolean"
+        },
+        {
+          "id": "1.6",
+          "condition": "The project does not have a `my-app/frontend/tailwind.config.js` file",
+          "type": "boolean"
+        },
+        {
+          "id": "1.7",
+          "condition": "The project does not have a `my-app/frontend/postcss.config.js` file",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}
